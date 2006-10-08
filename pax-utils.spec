@@ -1,5 +1,6 @@
 Summary:	PaX utilities
-Name:		Narzędzia PaX
+Summary(pl):	Narzędzia PaX
+Name:		pax-utils
 Version:	0.1.13
 Release:	1
 License:	GPL v2
