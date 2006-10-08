@@ -1,17 +1,21 @@
-Summary:	pax-utils
-Name:		pax-utils
+Summary:	PaX utilities
+Name:		Narzędzia PaX
 Version:	0.1.13
 Release:	1
 License:	GPL v2
-Group:		Applications
+Group:		Applications/System
 Source0:	http://dev.gentoo.org/~solar/pax/%{name}-%{version}.tar.bz2
 # Source0-md5:	5f09df47a16e83462384b44b75310539
 URL:		http://www.gentoo.org/proj/en/hardened/pax-utils.xml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Various ELF related utils for ELF32, ELF64 binaries useful tools that
-can check files for security relevant properties.
+Various useful ELF related utils for ELF32, ELF64 binaries that can
+check files for security relevant properties.
+
+%description -l pl
+Różne przydatne narzędzia dla binariów ELF32 i ELF64 sprawdzające
+pliki pod kątem właściwości związanych z bezpieczeństwem.
 
 %prep
 %setup -q
@@ -20,10 +24,11 @@ can check files for security relevant properties.
 %{__make} %{?debug:debug} \
 	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags}" \
-	LDFLAGS="%{rpmldflags}" \
+	LDFLAGS="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
