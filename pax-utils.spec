@@ -1,5 +1,5 @@
 Summary:	PaX utilities
-Summary(pl.UTF-8):   NarzÄdzia PaX
+Summary(pl.UTF-8):	NarzÄdzia PaX
 Name:		pax-utils
 Version:	0.1.13
 Release:	1
