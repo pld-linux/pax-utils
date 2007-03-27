@@ -1,5 +1,5 @@
 Summary:	PaX utilities
-Summary(pl.UTF-8):	NarzÄdzia PaX
+Summary(pl.UTF-8):	Narzędzia PaX
 Name:		pax-utils
 Version:	0.1.15
 Release:	1
@@ -15,8 +15,8 @@ Various useful ELF related utils for ELF32, ELF64 binaries that can
 check files for security relevant properties.
 
 %description -l pl.UTF-8
-RĂłĹźne przydatne narzÄdzia dla binariĂłw ELF32 i ELF64 sprawdzajÄce
-pliki pod kÄtem wĹaĹciwoĹci zwiÄzanych z bezpieczeĹstwem.
+Różne przydatne narzędzia dla binariów ELF32 i ELF64 sprawdzające
+pliki pod kątem właściwości związanych z bezpieczeństwem.
 
 %prep
 %setup -q
