@@ -1,12 +1,12 @@
 Summary:	PaX utilities
 Summary(pl.UTF-8):	Narzędzia PaX
 Name:		pax-utils
-Version:	0.1.16
+Version:	0.2.3
 Release:	1
 License:	GPL v2
 Group:		Applications/System
-Source0:	http://dev.gentoo.org/~solar/pax/%{name}-%{version}.tar.bz2
-# Source0-md5:	29e8cee6d0d77bc6e4c2a45f76376653
+Source0:	http://dev.gentoo.org/~vapier/dist/%{name}-%{version}.tar.xz
+# Source0-md5:	d2d27891742d14d81b205cf4e42de28a
 URL:		http://www.gentoo.org/proj/en/hardened/pax-utils.xml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -42,8 +42,12 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc BUGS README TODO
 %attr(755,root,root) %{_bindir}/dumpelf
+%attr(755,root,root) %{_bindir}/lddtree
 %attr(755,root,root) %{_bindir}/pspax
 %attr(755,root,root) %{_bindir}/scanelf
+%attr(755,root,root) %{_bindir}/scanmacho
+%attr(755,root,root) %{_bindir}/symtree
 %{_mandir}/man1/dumpelf.1*
 %{_mandir}/man1/pspax.1*
 %{_mandir}/man1/scanelf.1*
+%{_mandir}/man1/scanmacho.1*
