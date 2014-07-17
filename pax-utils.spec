@@ -1,12 +1,12 @@
 Summary:	PaX utilities
 Summary(pl.UTF-8):	Narzędzia PaX
 Name:		pax-utils
-Version:	0.7
+Version:	0.8.1
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://dev.gentoo.org/~vapier/dist/%{name}-%{version}.tar.xz
-# Source0-md5:	8ae7743ad11500f7604f2e817221d877
+# Source0-md5:	bc42279c5aff3682c12be40f72805cec
 URL:		http://www.gentoo.org/proj/en/hardened/pax-utils.xml
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
