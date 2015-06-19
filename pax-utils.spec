@@ -8,6 +8,7 @@ Group:		Applications/System
 Source0:	http://dev.gentoo.org/~vapier/dist/%{name}-%{version}.tar.xz
 # Source0-md5:	e1c9f808a661204fbdca5e3b17da791e
 URL:		http://www.gentoo.org/proj/en/hardened/pax-utils.xml
+Requires:	python-elftools
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
