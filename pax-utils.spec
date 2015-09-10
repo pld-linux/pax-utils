@@ -1,12 +1,12 @@
 Summary:	PaX utilities
 Summary(pl.UTF-8):	Narzędzia PaX
 Name:		pax-utils
-Version:	1.0.4
+Version:	1.1.1
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://dev.gentoo.org/~vapier/dist/%{name}-%{version}.tar.xz
-# Source0-md5:	915bd4d1c36d57a5502aa0e4ea8d8c13
+# Source0-md5:	7b8c45a26ae8595ec0f7e268b93572ae
 URL:		http://www.gentoo.org/proj/en/hardened/pax-utils.xml
 Requires:	python-elftools
 BuildRequires:	tar >= 1:1.22
