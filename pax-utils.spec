@@ -1,13 +1,13 @@
 Summary:	PaX utilities
 Summary(pl.UTF-8):	Narzędzia PaX
 Name:		pax-utils
-Version:	1.1.4
+Version:	1.2.3
 Release:	1
 License:	GPL v2
 Group:		Applications/System
-Source0:	http://dev.gentoo.org/~vapier/dist/%{name}-%{version}.tar.xz
-# Source0-md5:	1bfbb5237881f0c5e476b2f7ffcc00d5
-URL:		http://www.gentoo.org/proj/en/hardened/pax-utils.xml
+Source0:	http://dev.gentoo.org/~slyfox/distfiles/%{name}-%{version}.tar.xz
+# Source0-md5:	f7cb7348dd4577389ccdd082bb18c162
+URL:		https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
 Requires:	python-elftools
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
@@ -43,7 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc BUGS README TODO
+%doc BUGS README.md TODO
 %attr(755,root,root) %{_bindir}/dumpelf
 %attr(755,root,root) %{_bindir}/lddtree
 %attr(755,root,root) %{_bindir}/pspax
